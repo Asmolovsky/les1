@@ -1,4 +1,5 @@
 try:
-    c = 1+"два"
-except TypeError:
-    print("Неверный тип переменной!")
+    a = int(input("Введите число: "))
+    print("Введенное число: ", a)
+except ValueError:
+    print("Некорректное значение числа")
